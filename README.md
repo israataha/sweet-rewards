@@ -75,5 +75,5 @@ To create a new ADR that supercedes a previous one (ADR 9, for example), use the
 To generate or update the Table of Contents run:
 
 ```
-adr generate toc > docs/architecture/decisions/0000-index.md
+adr generate toc > docs/architecture/decisions/index.md
 ```
