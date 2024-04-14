@@ -20,6 +20,7 @@ export type AppStackParamList = {
 };
 
 export type TabParamList = {
+  Earn: undefined;
   Rewards: undefined;
   Locations: undefined;
   More: undefined;
