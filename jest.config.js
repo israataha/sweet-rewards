@@ -3,8 +3,8 @@ module.exports = {
   moduleNameMapper: {
     '\\.svg': '<rootDir>/__mocks__/svgMock.ts',
   },
-  setupFiles: ['<rootDir>/jest/setup.ts'],
-  setupFilesAfterEnv: ['@testing-library/react-native/extend-expect'],
+  // https://github.com/callstack/react-native-testing-library/blob/main/examples/react-navigation/jest.config.js
+  setupFilesAfterEnv: ['./node_modules/react-native-gesture-handler/jestSetup.js', '<rootDir>/jest/setup.ts'],
   testMatch: ['**/*.test.ts?(x)'],
   transformIgnorePatterns: ['node_modules/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)'],
 };
