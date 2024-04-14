@@ -4,7 +4,7 @@ module.exports = {
     '\\.svg': '<rootDir>/__mocks__/svgMock.ts',
   },
   setupFiles: ['<rootDir>/jest/setup.ts'],
-  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  setupFilesAfterEnv: ['@testing-library/react-native/extend-expect'],
   testMatch: ['**/*.test.ts?(x)'],
   transformIgnorePatterns: ['node_modules/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)'],
 };
