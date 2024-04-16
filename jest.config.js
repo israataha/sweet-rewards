@@ -1,4 +1,12 @@
 module.exports = {
+  // https://www.valentinog.com/blog/jest-coverage/
+  collectCoverage: true,
+  collectCoverageFrom: ['./src/**'],
+  coverageThreshold: {
+    global: {
+      lines: 80,
+    },
+  },
   preset: 'react-native',
   moduleNameMapper: {
     '\\.svg': '<rootDir>/__mocks__/svgMock.ts',

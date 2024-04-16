@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   extends: '@react-native',
+  ignorePatterns: ['coverage/*'],
   overrides: [
     {
       // Test files only
