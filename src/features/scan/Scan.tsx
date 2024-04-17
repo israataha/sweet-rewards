@@ -13,7 +13,9 @@ export const Scan = () => {
           <View style={styles.cardContent}>
             <Text style={styles.scan}>Scan to earn points</Text>
             <Text style={styles.earn}>Earn 1 pt per $1 </Text>
-            <QRCode size={100} value="This is placeholder text" />
+            <View accessibilityLabel="QR Code">
+              <QRCode size={100} value="This is placeholder text" />
+            </View>
           </View>
         </View>
       </View>
