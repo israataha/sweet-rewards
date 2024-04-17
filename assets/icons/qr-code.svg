@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M336 336h80v80h-80zM272 272h64v64h-64zM416 416h64v64h-64zM432 272h48v48h-48zM272 432h48v48h-48zM336 96h80v80h-80z"/><path d="M480 240H272V32h208zm-164-44h120V76H316zM96 96h80v80H96z"/><path d="M240 240H32V32h208zM76 196h120V76H76zM96 336h80v80H96z"/><path d="M240 480H32V272h208zM76 436h120V316H76z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+    <rect x="336" y="336" width="80" height="80" rx="8" ry="8"/>
+    <rect x="272" y="272" width="64" height="64" rx="8" ry="8"/>
+    <rect x="416" y="416" width="64" height="64" rx="8" ry="8"/>
+    <rect x="432" y="272" width="48" height="48" rx="8" ry="8"/>
+    <rect x="272" y="432" width="48" height="48" rx="8" ry="8"/>
+    <path d="M448 32H304a32 32 0 00-32 32v144a32 32 0 0032 32h144a32 32 0 0032-32V64a32 32 0 00-32-32zm-32 136a8 8 0 01-8 8h-64a8 8 0 01-8-8v-64a8 8 0 018-8h64a8 8 0 018 8zM208 32H64a32 32 0 00-32 32v144a32 32 0 0032 32h144a32 32 0 0032-32V64a32 32 0 00-32-32zm-32 136a8 8 0 01-8 8h-64a8 8 0 01-8-8v-64a8 8 0 018-8h64a8 8 0 018 8zM208 272H64a32 32 0 00-32 32v144a32 32 0 0032 32h144a32 32 0 0032-32V304a32 32 0 00-32-32zm-32 136a8 8 0 01-8 8h-64a8 8 0 01-8-8v-64a8 8 0 018-8h64a8 8 0 018 8z"/>
+</svg>
