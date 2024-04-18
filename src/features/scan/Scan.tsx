@@ -1,18 +1,22 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';
+import Star from '../../../assets/icons/star.svg';
 import { Screen } from '../../components';
 import { colors } from '../../theme/colors';
+import { fonts } from '../../theme/typography';
 
 export const Scan = () => {
   return (
     <Screen>
       <View style={styles.container}>
         <View style={[styles.card, styles.cardShadow]}>
-          <View style={styles.cardHeader} />
+          <View style={styles.cardHeader}>
+            <Star height={100} fill={colors.gold} style={styles.star} />
+          </View>
           <View style={styles.cardContent}>
             <Text style={styles.scan}>Scan to earn points</Text>
-            <Text style={styles.earn}>Earn 1 pt per $1 </Text>
+            <Text style={styles.earn}> Earn 1 pt per $1 </Text>
             <View accessibilityLabel="QR Code">
               <QRCode size={100} value="This is placeholder text" />
             </View>
@@ -41,8 +45,7 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
   },
   cardHeader: {
-    color: colors.accentGreen,
-    backgroundColor: colors.primaryGreen,
+    backgroundColor: colors.houseGreen,
     borderTopLeftRadius: 8,
     borderTopRightRadius: 8,
     height: 150,
@@ -57,17 +60,21 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingVertical: 30,
   },
+  star: {
+    height: 100,
+    marginTop: 25,
+  },
   scan: {
+    fontFamily: fonts.SodoSans.semibold,
     fontSize: 20,
-    fontWeight: '500',
   },
   earn: {
     borderColor: colors.gold,
     borderRadius: 4,
     borderWidth: 1,
+    fontFamily: fonts.SodoSans.semibold,
     fontSize: 10,
-    fontWeight: '600',
-    padding: 5,
+    padding: 4,
     marginTop: 10,
     marginBottom: 18,
   },

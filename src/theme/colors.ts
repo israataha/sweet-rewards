@@ -11,7 +11,7 @@ export const colors = {
   accentGreen: '#00754a',
   lightGreen: '#d4e9e2',
   houseGreen: '#1e3932',
-  gold: '#eac784',
+  gold: '#c79d69',
   warmNeutral: '#f2f0eb',
   coolNeutral: '#f9f9f9',
 };
