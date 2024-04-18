@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/SodoSans-Black.otf",
+      "sha1": "f27b1bdd123708d61404f94be649e51d7b0f711a"
+    },
+    {
+      "path": "assets/fonts/SodoSans-Bold.otf",
+      "sha1": "1d9e769da406ec2176e23b6cb5b04c00bdd47771"
+    },
+    {
+      "path": "assets/fonts/SodoSans-Light.otf",
+      "sha1": "e00fb1e45d64e1408a16b6e15cb3100143b00507"
+    },
+    {
+      "path": "assets/fonts/SodoSans-Regular.otf",
+      "sha1": "eff062f01f744c08a94a1aaef9b170b4e2d3a3f1"
+    },
+    {
+      "path": "assets/fonts/SodoSans-SemiBold.otf",
+      "sha1": "03f98d89b927f84af2e57335d24c279278b30ba4"
+    },
+    {
+      "path": "assets/fonts/SodoSans-Thin.otf",
+      "sha1": "edc50248498fc2ad311bf3cdaa90a3d649c7cea0"
+    }
+  ]
+}

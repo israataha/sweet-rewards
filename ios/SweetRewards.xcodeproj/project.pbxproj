@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-SweetRewards-SweetRewardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SweetRewards-SweetRewardsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AD91C088FFD14318B4A31C8D /* SodoSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 524EA5DF45764C009D253660 /* SodoSans-Black.otf */; };
+		136E7F22C7F34FBF8B6B9C55 /* SodoSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDD7196F6EE2439ABC6CA78E /* SodoSans-Bold.otf */; };
+		86F47466716D408D8633203D /* SodoSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2D929E5C2DB4696B3D1B669 /* SodoSans-Light.otf */; };
+		9F806D9358B34C80B91F61D8 /* SodoSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35143A1657D0459C96F6B14A /* SodoSans-Regular.otf */; };
+		8A9841F504364A55944C10D8 /* SodoSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DEE70A4A5FE4E979F5C8F4A /* SodoSans-SemiBold.otf */; };
+		5D3B3F195096474180A8A9BE /* SodoSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94CCEFC18AD544709B94274A /* SodoSans-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SweetRewards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SweetRewards-SweetRewardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetRewards-SweetRewardsTests.release.xcconfig"; path = "Target Support Files/Pods-SweetRewards-SweetRewardsTests/Pods-SweetRewards-SweetRewardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		524EA5DF45764C009D253660 /* SodoSans-Black.otf */ = {isa = PBXFileReference; name = "SodoSans-Black.otf"; path = "../assets/fonts/SodoSans-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDD7196F6EE2439ABC6CA78E /* SodoSans-Bold.otf */ = {isa = PBXFileReference; name = "SodoSans-Bold.otf"; path = "../assets/fonts/SodoSans-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2D929E5C2DB4696B3D1B669 /* SodoSans-Light.otf */ = {isa = PBXFileReference; name = "SodoSans-Light.otf"; path = "../assets/fonts/SodoSans-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35143A1657D0459C96F6B14A /* SodoSans-Regular.otf */ = {isa = PBXFileReference; name = "SodoSans-Regular.otf"; path = "../assets/fonts/SodoSans-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DEE70A4A5FE4E979F5C8F4A /* SodoSans-SemiBold.otf */ = {isa = PBXFileReference; name = "SodoSans-SemiBold.otf"; path = "../assets/fonts/SodoSans-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94CCEFC18AD544709B94274A /* SodoSans-Thin.otf */ = {isa = PBXFileReference; name = "SodoSans-Thin.otf"; path = "../assets/fonts/SodoSans-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6F6230C205A14FEE9B1CEAF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				524EA5DF45764C009D253660 /* SodoSans-Black.otf */,
+				DDD7196F6EE2439ABC6CA78E /* SodoSans-Bold.otf */,
+				E2D929E5C2DB4696B3D1B669 /* SodoSans-Light.otf */,
+				35143A1657D0459C96F6B14A /* SodoSans-Regular.otf */,
+				5DEE70A4A5FE4E979F5C8F4A /* SodoSans-SemiBold.otf */,
+				94CCEFC18AD544709B94274A /* SodoSans-Thin.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +148,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6F6230C205A14FEE9B1CEAF4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -243,6 +270,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AD91C088FFD14318B4A31C8D /* SodoSans-Black.otf in Resources */,
+				136E7F22C7F34FBF8B6B9C55 /* SodoSans-Bold.otf in Resources */,
+				86F47466716D408D8633203D /* SodoSans-Light.otf in Resources */,
+				9F806D9358B34C80B91F61D8 /* SodoSans-Regular.otf in Resources */,
+				8A9841F504364A55944C10D8 /* SodoSans-SemiBold.otf in Resources */,
+				5D3B3F195096474180A8A9BE /* SodoSans-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
