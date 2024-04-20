@@ -20,10 +20,16 @@ export type AppStackParamList = {
 };
 
 export type TabParamList = {
+  Home: undefined;
   Scan: undefined;
-  Rewards: undefined;
   Locations: undefined;
-  More: undefined;
+  Account: NavigatorScreenParams<AccountParamList>;
+};
+
+export type AccountParamList = {
+  AccountHome: undefined;
+  Profile: undefined;
+  History: undefined;
 };
 
 export type AppStackScreenProps<T extends keyof AppStackParamList> = StackScreenProps<AppStackParamList, T>;
@@ -37,3 +43,5 @@ export type TabScreenProps<T extends keyof TabParamList> = CompositeScreenProps<
   BottomTabScreenProps<TabParamList, T>,
   AppStackScreenProps<keyof AppStackParamList>
 >;
+
+export type AccountScreenProps<T extends keyof AccountParamList> = StackScreenProps<AccountParamList, T>;
