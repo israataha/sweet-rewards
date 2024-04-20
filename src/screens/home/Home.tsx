@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { Screen } from '../../components';
 
-export const More = () => {
+export const Home = () => {
   return (
     <Screen>
       <View>
-        <Text>More</Text>
+        <Text>Home</Text>
       </View>
     </Screen>
   );

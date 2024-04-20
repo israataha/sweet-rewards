@@ -1,6 +1,7 @@
 export const colors = {
   // https://tailwindcss.com/docs/customizing-colors
   slate400: '#94a3b8',
+  gray800: '#1f2937',
 
   /*
     Brand colors
