@@ -5,5 +5,5 @@ import { Button } from './Button';
 test('Correctly renders button', async () => {
   render(<Button text="Press me" />);
 
-  expect(await screen.findByText('Press me')).toBeOnTheScreen();
+  expect(await screen.findByRole('button', { name: 'Press me' })).toBeOnTheScreen();
 });
