@@ -10,7 +10,7 @@ interface ButtonProps extends PressableProps {
 
 export const Button = (buttonProps: ButtonProps) => {
   return (
-    <Pressable style={[styles.pillButton, buttonProps.buttonStyle]}>
+    <Pressable role="button" style={[styles.pillButton, buttonProps.buttonStyle]}>
       <Text style={[styles.text, buttonProps.textStyle]}>{buttonProps.text}</Text>
     </Pressable>
   );
